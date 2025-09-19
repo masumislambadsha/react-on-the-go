@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Country = ({country}) => {
-  console.log(country.cca3.cca3)
+  console.log()
   return (
     <div>
       <img src={country.flags.flags.png} alt={country.flags.flags.alt}/>
