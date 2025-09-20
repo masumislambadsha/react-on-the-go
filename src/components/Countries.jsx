@@ -25,7 +25,7 @@ const Countries = ({countriesPromise}) => {
   // console.log(countries)
   return (
     <div>
-      <h1>In the countries {countries.length}</h1>
+      <h1>Visited countries {countries.length}</h1>
       <h2>Total countries visited: {visitedCountries.length}</h2>
       <ol>
         {
@@ -33,7 +33,7 @@ const Countries = ({countriesPromise}) => {
         }
       </ol>
       <h3>Total Visited Flags: {visitedFlag.length}</h3>
-      <div className='country'>
+      <div className=''>
         {
           visitedFlag.map(flag => <img width='120px' src={flag}></img>)
         }
